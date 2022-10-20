@@ -19,24 +19,40 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <main class="row d-flex justify-content-center align-items-center vh-100">
-    <div class="card w-75 m-3 p-0">
-      <img src="images/image-product-mobile.jpg" class="card-img-top" alt="perfume bottle">
-      <div class="card-body">
-        <h1 class="card-subtitle text-muted h4 py-2">PERFUME</h1>
+  <main class="row d-flex justify-content-center align-items-center vh-100 m-3">
+    <div class="col card p-0 border-0 shadow" style="max-width: 600px;">
 
-        <h2 class="card-title h1"><strong>Gabrielle Essence Eau De Parfum</strong></h2>
+      <img src="images/image-product-mobile.jpg" class="card-img-top d-lg-none" alt="perfume bottle">
+      <div class="row g-0">
 
-        <p class="card-text">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL. </p>
-
-        <div class="prices d-flex">
-          <h3 class="text-primary p-2 me-2 font-2">$149.99</h3>
-          <p class="text-decoration-line-through font-2">$169.99</p>
+        <div class="col d-none d-lg-inline">
+          <img src="images/image-product-desktop.jpg" class="img-fluid rounded-start" alt="perfume bottle">        
         </div>
 
-        <div class="d-grid gap-2">
-          <a href="#" class="btn btn-primary btn-lg"><img src="images/icon-cart.svg"> Add to Cart</a>
+        <div class="col d-flex">
+          <div class="card-body d-flex flex-column justify-content-around">
+            <h1 class="card-subtitle text-muted h4 py-2">PERFUME</h1>
+
+            <h2 class="card-title h1 font-2"><strong>Gabrielle Essence Eau De Parfum</strong></h2>
+
+            <p class="card-text text-muted">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL. </p>
+
+            <div class="prices d-flex align-content-center">
+              <h3 class="text-primary me-2 font-2">$149.99</h3>
+              <p class="text-decoration-line-through font-2 text-muted">$169.99</p>
+            </div>
+
+            <div class="d-grid gap-2 ">
+              <a href="#" class="btn btn-primary btn-lg d-block">
+                <img src="images/icon-cart.svg" class="me-2"> 
+                Add to Cart
+              </a>
+            </div>
+
+          </div>
+
         </div>
+        
       </div>
     </div>
   </main>
